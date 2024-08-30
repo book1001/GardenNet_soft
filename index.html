@@ -1,1 +1,398 @@
-Hello
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Software Lab</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <!-- <meta http-equiv="Content-type" content="text/html;charset=UTF-8"> -->
+    <!-- <link rel="shortcut icon" href="favicon.png"> -->
+
+    <!-- css -->
+    <link rel="stylesheet" href="font.css">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="index-detail.css">
+    <link rel="stylesheet" href="index_media.css">
+
+    <!-- script: index_ie.js -->
+    <script type="text/javascript" src="index_ie.js"></script>
+
+    <!-- script: Masonry -->
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
+    <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
+
+    <!--  This is for Are.na routing  -->
+    <script src="//unpkg.com/navigo"></script>
+
+    <!-- script: P5js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.11/p5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.11/addons/p5.dom.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.11/addons/p5.sound.min.js"></script>
+  </head>
+
+  <body>
+
+    <!-- Menu ================================================================== -->
+    <div class="menu-top-left">
+      <button class="menu-index font-menu" onclick="location.href='index.html'" type="button">
+        Software Lab
+      </button>
+      <button id="row3" class="menu-btn font-menu" onclick="menuSyllabus()" type="button">
+        Syllabus
+      </button>
+      <button id="row1" class="menu-btn font-menu" onclick="menuProjects()" type="button">
+        ➊
+      </button>
+      <button id="row2" class="menu-btn font-menu" type="button">
+        ➋
+      </button>
+      <button class="menu-btn blank font-menu" onclick="javascript:window.open('https://docs.google.com/document/d/1Euk-6pwBMuncuR3-D5TRsx-0_8Lzajf253foPcMY7u8/edit?usp=sharing', '_blank');" type="button">
+        Sign-up
+      </button>
+      <button class="menu-btn blank font-menu" onclick="javascript:window.open('https://docs.google.com/document/d/1XyNMKQgaqR7CS5u2jqsMDsg6q9395XdyWI9HRK70SDc/edit?usp=sharing', '_blank');" type="button">
+        Office Hours
+      </button>
+      <button class="menu-btn blank font-menu" onclick="javascript:window.open('https://drive.google.com/drive/folders/1cFimT95jUCv4J2ngXgXWOfEOLeNLZnKv?usp=drive_link', '_blank');" type="button">
+        G-Drive
+      </button>
+      <button class="menu-btn blank font-menu" onclick="javascript:window.open('https://www.are.na/fall-2024-bu-software-lab/bu-software-lab-collaborative-archive', '_blank');" type="button">
+        Are.na
+      </button>
+    </div>
+
+
+    <!-- Body: P1 ================================================================== -->
+    <div id="main" class="row1">
+      <div class="scrollContents">
+
+        <div class="col2-text" style="text-indent: 0px;">
+          <!-- --------------------------------------------------------------- -->
+          <div id="p1_magicSpells_1">
+            <div class="h-top"></div>
+            <a href="https://www.are.na/fall-2024-bu-senior-gd/class-note" target="_blank">
+              <h1>➊ Zooming Out</h1>
+            </a>
+
+            <h4>
+              We have developed our unique graphic design languages through many projects over the past three years. The first step of our class is to review your current body of work from a broader perspective. This process, “Zooming Out,” aims to unify your scattered ideas into a single, cohesive concept. By summarizing your work into a 5-minute presentation, you will extract the core elements of your work, setting the stage for your pre-thesis abstract at the end of the semester. Additionally, this process will help you identify areas that need further development for future projects. These self-initiated questions will provide key insights for our next project, “New Horizons.”
+              <br><br><br>
+            </h4>
+            
+            <!-- <h4>
+              Ⱳ: Workshop
+              <br><br>
+            </h4> -->
+            
+            <!-- <div id="calendar"></div>
+            <iframe class="col-arena-L" src="https://g-calendar-24f-1.glitch.me"></iframe> -->
+            <iframe class="col-arena-L" style="min-height: 300px;" src="schedule/schedule_p1.html"></iframe>
+
+          </div>
+          <!-- --------------------------------------------------------------- -->
+          <div id="p1_magicSpells_2">
+            <iframe class="col-arena-R" src="arena/class_note.html"></iframe>
+          </div>
+          <!-- --------------------------------------------------------------- -->
+        </div>
+
+        <div class="p-title">
+          <!-- <a href="https://www.are.na/spring-2024-bu-sophomore-graphic-design/form-making-workshops-typeface" target="_blank">
+            <h1 style="color: white;">FORM MAKING WORKSHOP & TYPEFACE</h1>
+          </a> -->
+
+          <div class="p-title-subM">
+            <div style="text-align: center;">
+              <button id="btn_p1_1" class="p-title-subM-btn" onclick="p1_magicSpells_1()" type="button">
+                Note
+              </button>
+              |
+              <button id="btn_p1_2" class="p-title-subM-btn" onclick="p1_magicSpells_2()" type="button">
+                Resources
+              </button>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+
+    <!-- Body: P2 ================================================================== -->
+    <div class="row2">
+      <div class="scrollContents">
+
+        <!-- <div class="h-top"></div>
+        <h1>Infinite Figures</h1> -->
+        
+        <div class="col2-text" style="text-indent: 0px;">
+          <!-- --------------------------------------------------------------- -->
+          <div id="p2_infiniteFigures_1">
+            <div class="h-top"></div>
+            <a href="https://www.are.na/fall-2024-bu-senior-gd/class-note" target="_blank">
+              <h1>➋ New Horizons</h1>
+            </a>
+
+            <h4>
+              “New Horizons” aims to broaden your graphic design territory by exploring new horizons based on your current boundaries identified in “Zooming Out.” Through “Zooming Out,” we discovered more about who you are. What do you see as your limitations, and which areas would you like to explore further? The keywords you selected for the direction you want to explore in the 5-minute presentation will help shape this project's focus. This step, “New Horizons,” includes small exercises and workshops to help you gain fresh insights.
+              <br><br><br>
+            </h4>
+
+            <iframe class="col-arena-L" style="min-height: 750px;" src="schedule/schedule_p2.html"></iframe>
+          </div>
+          <!-- --------------------------------------------------------------- -->
+          <div id="p2_infiniteFigures_2">
+            <iframe class="col-arena-R" src="arena/class_note.html"></iframe>
+          </div>
+          <!-- --------------------------------------------------------------- -->
+        </div>
+        
+        <div class="p-title">
+
+          <div class="p-title-subM">
+            <div style="text-align: center;">
+              <button id="btn_p2_1" class="p-title-subM-btn" onclick="p2_infiniteFigures_1()" type="button">
+                Note
+              </button>
+              |
+              <button id="btn_p2_2" class="p-title-subM-btn" onclick="p2_infiniteFigures_2()" type="button">
+                Resources
+              </button>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- Body: Syllabus ================================================================== -->
+    <div class="row3">
+      <div class="scrollContents">
+        <div class="col2-full" style="text-indent: 0px;">
+          <div id="syllabus_1">
+            <div class="h-top"></div>
+        
+            <div class="col2">
+              <h3 style="text-indent: 0px;">
+                <div>
+                  <h3>
+                    BU Fall 2024
+                  </h3>
+                  <h3>
+                    Software Lab
+                  </h3>
+                </div>
+              </h3>
+              <h3 style="text-indent: 0px;">
+                <div>
+                  <h3>
+                    CFA AR 535 Z
+                  </h3>
+                  <h3>
+                    Credits 2
+                  </h3>
+                </div>
+              </h3>
+            </div>
+
+            <br>
+
+            <div class="col2">
+              <h3 style="text-indent: 0px;">
+                <div>
+                  <h3 style="display: grid; grid-template-columns: 125px auto;">
+                    <ul>
+                      <li>
+                        Instructor
+                      </li>
+                    </ul>
+                    <ul>
+                      <li>
+                        <ul class="bulletS">
+                          <li class="link"><a href = "https://leehalim.com" target="_blank">Halim Lee (She/ Her)</a></li>
+                          <li class="link"><a href = "mailto: halim@bu.edu">halim@bu.edu</a></li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </h3>
+                  <br>
+                  <h3 style="display: grid; grid-template-columns: 125px auto;">
+                    <ul>
+                      <li>
+                        Location
+                      </li>
+                    </ul>
+                    <ul>
+                      <li>
+                        Room 409<br>
+                        (808 Commonwealth Ave)
+                      </li>
+                    </ul>
+                  </h3>
+                </div>
+              </h3>
+
+              <h3 style="text-indent: 0px;">
+                <div>
+                  <h3 style="display: grid; grid-template-columns: 140px auto;">
+                    <ul>
+                      <li>
+                        Time
+                      </li>
+                      <br>
+                    </ul>
+                    <ul>
+                      <li>
+                        Wed 6:30 — 9:15 PM
+                      </li>
+                      <br><br>
+                    </ul>
+                  </h3>
+                  <h3 style="display: grid; grid-template-columns: 140px auto;">
+                    <ul>
+                      <li>
+                        Office Hours
+                      </li>
+                    </ul>
+                    <ul>
+                      <li>
+                        Fri 10:00 — 1:30 pm<br>
+                        by appointment
+                      </li>
+                    </ul>
+                  </h3>
+                </div>
+                <br>
+                <div>
+                </div>
+              </h3>
+            </div>
+            <br>
+
+            <div class="col2" style="text-indent: 0px;">
+              <div>
+                <h3>Description</h3>
+                <h4>
+                  Topic is “Software Lab”, course is 2 units. This project-based studio course introduces industry-standard emerging media. Students will explore and establish an introductory technical foundation in tools for animation, modeling, and coding to support creative work. The course includes hands-on demonstrations that provide practical insights, informing conceptually oriented projects.
+                </h4><br><br>
+
+                <h3>Learning Outcomes</h3>
+                <h4><ul class="bullet">
+                  <li>Explore and learn emerging software to gain new skills and inspiration</li>
+                  <li>Develop the ability to use software in bold and experimental ways</li>
+                  <li>Create an individually specified tool to develop their own visual vocabulary</li>
+                  <li>Gain a deeper understanding of the potential of software and its impact on design</li>
+                </ul></h4><br>
+
+                <h3>Courseware</h3>
+                <h4>
+                  Please check our class website regularly, as it will be used for sign-ups and uploading course materials. We will be using Are.na as the main tool for sharing insightful resources. If you don’t have an Are.na account yet, please sign up in advance.
+                </h4><br><br>
+
+                <h3>Project Submission</h3>
+                <h4>
+                  All projects should be uploaded to the class Google Drive by the date specified in the class schedule. Files uploaded after this date will be rejected for your semester grade. 
+                </h4><br><br>
+
+                <h3>Grading</h3>
+                <h4>
+                  You will receive one-semester grade (A—F) according to the following metric:
+                </h4><br>
+                <h4>
+                  <ul class="bulletG6">
+                    <li>Course assignments & Projects :<br>clarity of topics and contents, final deliverables, visual ability</li>
+                  </ul>
+                  <ul class="bulletG3">
+                    <li>Depth & Breadth :<br>in-depth research, exploration, curiosity, and experimentation</li>
+                  </ul>
+                  <ul class="bulletG1">
+                    <li>Class Participation & Contribution :<br>actively participate and contribute in class</li>
+                  </ul>
+                </ul></h4><br>
+                <hr><br><br>
+
+                <!-- <h3>​​Course Policies</h3> -->
+                <h3>Disability Statement</h3>
+                <h4>
+                  Students who have self-identified, provided documentation of their disability, and requested reasonable accommodations may be entitled to receive approved modifications in the classroom, appropriate academic adjustments, or auxiliary aids that enable them to participate in and benefit from all educational programs and activities. Please see http://www.bu.edu/disability for more details.  
+                </h4><br><br>
+
+                <h3>Attendance & Absences</h3>
+                <h4>
+                  Please make every effort to arrive punctually. You must attend all the classes. According to the SVA Attendance Policy, unless specific permission for absence is arranged with the instructor of this course, students must attend class to receive credit for the course. Unexcused absences exceeding 1/4 of the total class hours in a given semester are considered excessive in all SVA courses. Tardiness and any unexcused absences will reduce your course grade. Three unexcused absences will reduce your semester grade by one step (e.g. A- to B+). Seven unexcused absences will earn you a failing grade for the course.  
+                </h4><br><br>
+
+                <h3>Wellness and Health</h3>
+                <h4>
+                  Your health and well-being are important for your journey as a professional graphic designer. It is important to work hard and balance that with rest, self-care, and attention to your mental and physical health. I will challenge you in this class through assignments, activities, and discussions. However, the work in this class should not be at the expense of your well-being. If for any reason you are struggling to find balance in your work life and health/wellbeing, please reach out. I am happy to discuss ways in which this class can support you in your learning and growth. You can find more resources provided by BU CFA Mental Health & Wellness Resources.
+                </h4><br><br>
+                <!-- <hr><br><br> -->
+
+              </div>
+
+              <!-- --------------------------------------------------------------- -->
+
+              <div>
+                <h3>#0 Software Lab</h3>
+                <h4>
+                  The use of new software plays a significant role in expanding our visual vocabulary and ideas, creating more opportunities in graphic design. "Software Lab" is an experimental laboratory that explores the potential of various digital applications. This course consists of several small workshops designed to help you explore diverse programs, as well as two main projects. The first project encourages bold and experimental attempts using newly learned software, while the second project focuses on creating your own tool to develop your unique design approach.
+                </h4><br><br>
+                <hr><br><br>
+
+                <h3>#1 World Wild Wonderland</h3>
+                <h4>
+                  Since the birth of the World Wide Web, creative makers have used it as a tool for exploring ideas, embodying their concepts into unique virtual spaces. Our first project, “World Wild Wonderland,” aims to build a shareable space of your desire. The kind of world you create is up to you. Set yourself free and be bold in experimenting with new software. The following workshops will focus on learning web-based software, but you are welcome to use any tools you prefer, including Photoshop Script or other tools you want to explore.
+                </h4><br><br>
+                <hr><br><br>
+
+                <h3>#2 Tool for You</h3>
+                <h4>
+                  Design outcomes are often significantly influenced by the nature of the tools we use. The use of the same software can sometimes restrict our visual language to similar styles. For the second project, “Tool for You,” we will build a tool specifically tailored to your own design work. Constructing your own machine allows you to develop unique design approaches and vocabulary. The project outcome is not limited to a tool for graphics; anything that can aid your creative process, such as a random text generator or a music player for your inspiration, is allowed.
+                </h4><br>
+
+              </div>
+            </div>
+          </div>
+            
+          <div id="syllabus_2">
+            <iframe class="col-arena-R" src="schedule/schedule_s.html"></iframe>
+            <!-- <iframe id="noteText" class="col-arena-R" src="https://g-calendar-24f.glitch.me"></iframe> -->
+          </div>
+        </div>
+
+        <div class="p-title">
+          <div class="p-title-subM">
+            <div style="text-align: center;">
+              <button id="btn_s_1" class="p-title-subM-btn" onclick="s_1()" type="button">
+                Syllabus
+              </button>
+              |
+              <button id="btn_s_2" class="p-title-subM-btn" onclick="s_2()" type="button">
+                Schedule
+              </button>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+
+    <!-- Body: Sign Up ================================================================== -->
+    <!-- <div class="row7">
+      <div class="scrollContents">
+        <iframe class="iframe-full" src="https://docs.google.com/document/d/1m5-sjV1BMbj_gvvh0BEALeMDg_dL4180xikqarKQwSw/edit?usp=sharing"></iframe>
+      </div>
+    </div> -->
+
+
+    <!-- Body: Are.na ================================================================== -->
+    <iframe id="notePen" class="toolsWorld" src="/note/index.html"></iframe>
+
+
+    <!-- script  -->
+    <script type="text/javascript" src="index.js"></script>
+
+    <!-- P2 Infinite Figures - 1: Spline -->
+    <!-- <iframe class="toolsWorld" src="https://my.spline.design/kidsplaygroundphysicscopy-55e2e578a2cf923a233b1367ce43a52e/"></iframe> -->
+    <!-- <iframe class="toolsWorld" src="https://my.spline.design/glasscirclescopy-678dc8bb29bd29fe164f67f407f7ae48"></iframe> -->
+
+  </body>
+</html>

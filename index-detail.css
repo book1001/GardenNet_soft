@@ -1,0 +1,261 @@
+.iframe-full {
+  position: fixed;
+  top: 0;
+  left: 0;
+  /* width: 50%; */
+  width: 100%;
+  height: 100%;
+  padding: 40px 0 0 0;
+  border: none;
+}
+
+.iframe-full-m {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  border: none;
+  z-index: -1;
+  pointer-events: none;
+}
+
+.iframe-doc {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  padding: 40px 20px 0 20px;
+  border: none;
+  background: #f9fbfd;
+}
+
+.p-title {
+  position: fixed;
+  top: 89px; 
+  left: 50%;
+  width: 100%;
+  transform: translate(-50%, 0);
+  mix-blend-mode: difference;
+}
+
+.p-title-bg {
+  position: fixed;
+  top: 0; 
+  left: 0%;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  background: white;
+  z-index: -1;
+}
+
+.h-top {
+  height: 89px;
+}
+
+.p-title-sub {
+  display: block;
+  padding: 0 40px 0 40px;
+}
+
+
+a > .p-title-sub-link {
+  color: #ffffff;
+}
+
+a > .p-title-sub-link:hover {
+  color: #000000;
+}
+
+.p-title-sub > div > a:hover {
+  text-shadow: 0 0px 6px yellow !important;
+}
+
+.p-title-sub-L {
+  position: absolute;
+  width: calc(50% - 60px);
+}
+
+.p-title-sub-R {
+  position: absolute;
+  width: calc(50% - 60px);
+  left: calc(50% + 20px);
+}
+
+.p-title-sub-1 {
+  position: absolute;
+  width: calc(40% - 40px);
+}
+
+.p-title-sub-2 {
+  position: absolute;
+  width: calc(40% - 40px);
+  left: calc(40% + 20px);
+}
+
+.p-title-sub-3 {
+  position: absolute;
+  width: calc(40% - 40px);
+  left: calc(40% + 40%);
+}
+
+.p-title-subM {
+  display: none;
+  width: 100%;
+  padding: 0;
+  border: 0px solid;
+  overflow: hidden;
+}
+
+.p-title-subM-btn {
+  margin: 0;
+  padding: 5px 8px 5px 8px;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  font-family: FKGroteskSemiMonoTrial-Regular,sans-serif;
+  font-size: 14.4px;
+  letter-spacing: 0.027em;
+  text-transform: uppercase;
+}
+
+#syllabus_1 {
+  display: block;
+}
+
+#syllabus_2 {
+  display: block;
+}
+
+#p1_magicSpells_1 {
+  display: block;
+}
+
+#p1_magicSpells_2 {
+  display: block;
+}
+
+#p2_infiniteFigures_1 {
+  display: block;
+}
+
+#p2_infiniteFigures_2 {
+  display: block;
+}
+
+#p3_ghosts_1 {
+  display: block;
+}
+
+#p3_ghosts_2 {
+  display: block;
+}
+
+#p3_ghosts_3 {
+  display: block;
+}
+
+#p4_platform_1 {
+  display: block;
+}
+
+#p4_platform_2 {
+  display: block;
+}
+
+#p4_platform_3 {
+  display: block;
+}
+
+.col-arena {
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  border: 0px solid;
+  overflow: hidden;
+}
+
+.col-note {
+  /* position: fixed;
+  top: 0;
+  left: 0;
+  width: calc(50% - 20px);
+  height: 100%;
+  padding: 0 0 0 40px; */
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100svh;
+  border: none;
+}
+
+.col-arena-L {
+  width: 100%;
+  /* min-height: 500px; */
+  padding: 0;
+  border: none;
+}
+
+/* .col-arena-L {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: calc(50% - 20px);
+  height: 100%;
+  padding: 0 0 0 40px;
+  border: 0px solid;
+} */
+
+.col-arena-R {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 50%;
+  /* width: calc(50% - 20px); */
+  height: 100%;
+  padding: 0 15px 0 0;
+  border: none;
+  /* mix-blend-mode: difference; */
+}
+
+.col3-arena-1 {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 40%;
+  /* width: 33.3%; */
+  height: 100%;
+  padding: 0 0 0 40px;
+  border: 0px solid;
+  /* background: red; */
+}
+
+.col3-arena-2 {
+  position: fixed;
+  top: 0;
+  left: 60%;
+  /* left: 50%; */
+  transform: translate(-50%, 0);
+  width: 40%;
+  /* width: 33.3%; */
+  height: 100%;
+  padding: 0 20px 0 20px;
+  border: 0px solid;
+  /* background: green; */
+}
+
+.col3-arena-3 {
+  position: fixed;
+  top: 0;
+  left: 100%;
+  transform: translate(-100%, 0);
+  width: 20%;
+  height: 100%;
+  padding: 0 30px 0 0;
+  border: 0px solid;
+  /* background: blue; */
+}

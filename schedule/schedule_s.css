@@ -1,0 +1,96 @@
+/* H-top ================================================ */
+
+.h-top {
+  height: calc(89px - 4px);
+}
+
+
+/* Calendar Hight ================================================ */
+
+#schedule-s {
+  height: calc(100% - 89px);
+  padding-bottom: 15px;
+}
+
+
+/* Font ================================================ */
+
+.fc-col-header-cell-cushion {
+  font-size: 14.4px;
+}
+
+ul > li b {
+  font-size: 12.5px;
+}
+
+ul > li i {
+  font-size: 12.5px;
+}
+
+ul > li u {
+  font-size: 12.5px;
+}
+
+ul > li b i {
+  font-size: 12.5px;
+}
+
+
+/* Day: Specific ================================================ */
+
+/* Final Package */
+#fc-dom-210 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  /* text-align: right; */
+  color: black;
+  background: var(--p4-bg);
+  z-index: -1;
+}
+
+
+/* No Class */
+#fc-dom-174,
+#fc-dom-176,
+#fc-dom-178,
+#fc-dom-180,
+#fc-dom-182 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  /* text-align: right; */
+  color: white;
+  background: black;
+  z-index: -1;
+}
+
+
+/* ??? ================================================ */
+
+.fc-event {
+  height: 100%;
+}
+
+
+/* Responsive ================================================ */
+
+@media only screen and (max-width:600px) {   /* For tablets: */
+  
+  .h-top {
+    height: 134px;
+  }
+  
+  .fc .fc-daygrid-month-start {
+    font-size: 12.5px;
+  }
+  
+}
+
+@media only screen and (max-height:400px) {
+
+  .h-top {
+    height: 89px;
+  }
+
+}

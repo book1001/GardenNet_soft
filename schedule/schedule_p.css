@@ -1,0 +1,59 @@
+/* H-top ================================================ */
+
+
+/* Calendar Hight ================================================ */
+
+
+/* Font ================================================ */
+
+.fc-col-header-cell-cushion {
+  font-size: 13px;
+}
+
+
+/* ??? ================================================ */
+
+.fc-col-header {
+  width: 100%;
+}
+
+.fc-scrollgrid-sync-table {
+  width: 100%;
+}
+
+tr > td > .fc-daygrid-day-frame {
+  height: 100px !important;
+}
+
+td .fc-day {
+  height: 100px !important;
+}
+
+td .fc-day .fc-day-mon .fc-day-future .fc-daygrid-day {
+  height: 100px !important;
+}
+
+td .fc-day .fc-day-tue .fc-day-future .fc-daygrid-day {
+  height: 100px !important;
+}
+
+td .fc-day .fc-day-wed .fc-day-future .fc-daygrid-day {
+  height: 100px !important;
+}
+
+td .fc-day .fc-day-thu .fc-day-future .fc-daygrid-day {
+  height: 100px !important;
+}
+
+td .fc-day .fc-day-fri .fc-day-future .fc-daygrid-day {
+  height: 100px !important;
+}
+
+td .fc-day .fc-day-sat .fc-day-future .fc-daygrid-day {
+  height: 100px !important;
+}
+
+td .fc-day .fc-day-sun .fc-day-future .fc-daygrid-day {
+  height: 100px !important;
+}
+

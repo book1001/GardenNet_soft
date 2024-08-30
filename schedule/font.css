@@ -1,0 +1,148 @@
+/* font: import ================================================ */
+
+@font-face {
+  font-family: 'FKGroteskMonoTrial-Regular';
+  src: url('../font/FKGroteskMonoTrial-Regular.woff') format('woff');
+  src: url('../font/FKGroteskMonoTrial-Regular.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'FKGroteskSemiMonoTrial-Regular';
+  src: url('../font/FKGroteskSemiMonoTrial-Regular.woff') format('woff');
+  src: url('../font/FKGroteskSemiMonoTrial-Regular.woff2') format('woff2');
+}
+
+
+/* Root ================================================ */
+
+:root {
+  --fc-today-bg-color: transparent;
+  --fc-event-bg-color: transparent;
+  --fc-event-border-color: transparent;
+  --fc-border-color: transparent;
+  --fc-small-font-size: 12.5px;
+  --fc-event-text-color: #000000;
+
+  --p1-text: black;
+  --p1-bg: white;
+  --p2-text: white;
+  --p2-bg: blue;
+  --p3-text: black;
+  --p3-bg: yellow;
+  --p4-text: black;
+  --p4-bg: white;
+}
+
+
+/* Default Font ================================================ */
+
+.fc-col-header-cell-cushion {
+  font-family: FKGroteskSemiMonoTrial-Regular,sans-serif;
+  letter-spacing: 0.027em;
+  font-weight: normal;
+}
+
+.fc table {
+  font-size: 12.5px;
+}
+
+.fc-daygrid-day-number {
+  color: black;
+}
+
+.fc-event-time {
+  font-weight: bold;
+}
+
+
+/* Link ================================================ */
+
+a {
+  color: #000000;
+  text-decoration: none;
+}
+
+
+/* Markup: #1 Zooming In ================================================ */
+
+b {
+  color: var(--p1-text);
+  background: var(--p1-bg);
+  font-weight: normal;
+}
+
+ul > li b {
+  color: var(--p1-bg);
+  background: transparent;
+}
+
+
+/* Markup: #3 Gardeners' Map  ================================================ */
+
+i {
+  color: var(--p3-text);
+  background: var(--p3-bg);
+  font-style: normal;
+}
+
+ul > li i {
+  color: var(--p3-bg);
+  background: transparent;
+}
+
+
+/* Markup: #2 New Horizons ================================================ */
+
+u {
+  color: var(--p2-text);
+  background: var(--p2-bg);
+  text-decoration: none;
+}
+
+ul > li u {
+  color: var(--p2-bg);
+  background: transparent;
+}
+
+
+/* Markup: #4 Terraforming ================================================ */
+
+b i {
+  color: var(--p4-text);
+  background: var(--p4-bg);
+  font-weight: normal;
+  font-style: normal;
+}
+
+ul > li b i {
+  color: var(--p4-bg);
+  background: transparent;
+}
+
+
+/* Markup: List Indent ================================================ */
+
+/* ul {
+  padding-left: 10px !important;
+}
+
+.fc-event-url > ul > li b::before {
+  content:': ';
+  margin-left: -12px;
+}
+
+.fc-event-url > ul > li i::before {
+  content:': ';
+  margin-left: -12px;
+}
+
+.fc-event-url > ul > li u::before {
+  content:': ';
+  margin-left: -12px;
+}
+
+.fc-event-url > ul > li b i::before {
+  content:': ';
+  margin-left: -12px;
+} */
+
