@@ -46,6 +46,13 @@
   font-size: 12.5px;
 }
 
+.fc .fc-daygrid-month-start {
+  font-family: FKGroteskSemiMonoTrial-Regular,sans-serif;
+  letter-spacing: 0.027em;
+  font-weight: normal;
+  font-size: 12.5px;
+}
+
 .fc-daygrid-day-number {
   color: black;
 }
