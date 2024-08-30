@@ -1,0 +1,33 @@
+@media only screen and (max-width:600px) {
+
+  .h-top {
+    height: 134px;
+  }
+  
+}
+
+@media only screen and (max-width:400px) {   /* For tablets: */
+
+  .ChannelContents {
+    grid-template-columns: 1fr 1fr; 
+    font-size: 0;
+  }
+
+  .ChannelContents-3 {
+    grid-template-columns: 1fr 1fr 1fr; 
+    font-size: 0;
+  }
+
+  .Text {
+    grid-column: 1 / span 2;
+  }
+  
+}
+
+@media only screen and (max-height:400px) {
+
+  .h-top {
+    height: 89px;
+  }
+
+}

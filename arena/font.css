@@ -1,0 +1,81 @@
+/* font: import ================================================ */
+
+@font-face {
+  font-family: 'FKGroteskSemiMonoTrial-Regular';
+  src: url('../font/FKGroteskSemiMonoTrial-Regular.woff') format('woff');
+  src: url('../font/FKGroteskSemiMonoTrial-Regular.woff2') format('woff2');
+}
+
+
+/* text: drag color ================================================ */
+
+::selection {
+  color: #000000;
+  /* text-shadow: 0 0px 6px yellow; */
+  text-decoration: none;
+  /* color: #000000 !important;
+  background: #ffffff !important; */
+}
+
+/* Code for Firefox */
+::-moz-selection { 
+  color: #000000;
+  /* text-shadow: 0 0px 6px yellow; */
+  text-decoration: none;
+  /* color: #000000 !important;
+  background: #ffffff !important; */
+}
+
+
+/* text: default ================================================ */
+
+a {
+  color: #000000;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #ffffff;
+  /* text-shadow: 0 0px 6px yellow; */
+  text-decoration: none;
+}
+
+p {
+  font-family: FKGroteskSemiMonoTrial-Regular,sans-serif;
+  font-size: 14.4px;
+  letter-spacing: 0.027em;
+  margin-block-start: 0.3em;
+  margin-block-end: 0.3em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: normal;
+  text-transform: none;
+  color: #000000;
+}
+
+/* p::selection {
+  color: #000000;
+  text-shadow: 0 0px 6px blue;
+  background: #2d2d2d;
+} */
+
+a > p::selection {
+  color: #ffffff;
+  /* text-shadow: 0 0px 6px yellow; */
+  text-decoration: none;
+}
+
+a > p:hover {
+  color: #ffffff;
+  /* text-shadow: 0 0px 6px yellow; */
+  text-decoration: none;
+}
+
+.BlockInner__Text > p::selection {
+  color: #000000;
+  /* text-shadow: 0 0px 6px blue; */
+  background: gainsboro;
+  /* color: #000000;
+  text-shadow: 0 0px 6px yellow; */
+  text-decoration: none;
+}

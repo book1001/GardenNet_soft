@@ -1,0 +1,341 @@
+/* font: import ================================================ */
+
+@font-face {
+  font-family: 'FKGroteskMonoTrial-Regular';
+  src: url('./font/FKGroteskMonoTrial-Regular.woff') format('woff');
+  src: url('./font/FKGroteskMonoTrial-Regular.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'FKGroteskSemiMonoTrial-Regular';
+  src: url('./font/FKGroteskSemiMonoTrial-Regular.woff') format('woff');
+  src: url('./font/FKGroteskSemiMonoTrial-Regular.woff2') format('woff2');
+}
+
+
+/* text: align ================================================ */
+
+.text-align-left {
+  text-align: left;
+}
+.text-align-center {
+  text-align: center;
+}
+.text-align-right {
+  text-align: right;
+}
+
+
+/* text: drag color ================================================ */
+
+::selection {
+  color: #000000;
+  /* text-shadow: 0 0px 6px greenyellow; */
+  background: white;
+  /* color: #ffffff;
+  text-shadow: 0 0px 6px blue;
+  background: gainsboro; */
+
+  /* text-shadow: 0 0px 6px lightgreen;
+  background: white; */
+
+  /* color: #ffffff !important;
+  background: #000000 !important; */
+  /* color: #000000 !important;
+  background: #ffffff !important; */
+}
+
+::-moz-selection { /* Code for Firefox */
+  color: #000000;
+  text-shadow: 0 0px 6px yellow;
+  background: #2d2d2d;
+
+  /* color: #ffffff;
+  text-shadow: 0 0px 6px blue;
+  background: gainsboro; */
+
+  /* color: #ffffff !important;
+  background: #000000 !important; */
+  /* color: #000000 !important;
+  background: #ffffff !important; */
+}
+
+
+/* default ================================================ */
+a {
+  text-decoration: none;
+  color: #000000;
+}
+
+a:hover {
+  color: #ffffff;
+  /* color: #000000;
+  text-shadow: 0 0px 6px yellow; */
+}
+
+b {
+  font-weight: normal;
+  background: #000000;
+  color: #ffffff;
+}
+
+/* font: menu ================================================ */
+
+.font-menu{
+  font-family: FKGroteskSemiMonoTrial-Regular,sans-serif;
+  font-size: 14.4px;
+  letter-spacing: 0.027em;
+  text-transform: uppercase;
+  padding-right: 8px !important;
+}
+
+
+/* list ================================================ */
+
+ul{
+  list-style:none;
+   /* padding-left:0px; */
+  margin-block-start: 0;
+  margin-block-end: 0;
+  margin-inline-start: 0;
+  margin-inline-end: 0;
+  padding-inline-start: 0;
+}
+
+ul.bullet{
+  list-style:none;
+  /* padding-left:0px; */
+  margin-block-start: 0;
+  margin-block-end: 0;
+  margin-inline-start: 0;
+  margin-inline-end: 0;
+  padding-inline-start: 0;
+
+  /* margin-top: 0px;
+  margin-bottom: 10px; */
+  padding-left: 20px;
+}
+
+ul.bullet li {
+  padding-bottom: 19px;
+  /* padding-bottom: 9.5px; */
+}
+
+ul.bullet li::before {
+  content: '✿';
+  margin-left: -20px;
+  margin-right: 8px;
+}
+
+ul.bullet li.link::before {
+  content: '–';
+  margin-left: -20px;
+  margin-right: 8px;
+}
+
+ul.bulletG6{
+  list-style:none;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  margin-inline-start: 0;
+  margin-inline-end: 0;
+  padding-inline-start: 0;
+  padding-left: 40px;
+  padding-bottom: 19px;
+}
+
+ul.bulletG6 li::before {
+  content: '60%';
+  margin-left: -40px;
+  margin-right: 10px;
+}
+
+ul.bulletG3{
+  list-style:none;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  margin-inline-start: 0;
+  margin-inline-end: 0;
+  padding-inline-start: 0;
+  padding-left: 40px;
+  padding-bottom: 19px;
+}
+
+ul.bulletG3 li::before {
+  content: '30%';
+  margin-left: -40px;
+  margin-right: 10px;
+}
+
+ul.bulletG1{
+  list-style:none;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  margin-inline-start: 0;
+  margin-inline-end: 0;
+  padding-inline-start: 0;
+  padding-left: 40px;
+  padding-bottom: 19px;
+}
+
+ul.bulletG1 li::before {
+  content: '10%';
+  margin-left: -40px;
+  margin-right: 10px;
+}
+
+ul.bulletS{
+  font-family: FKGroteskSemiMonoTrial-Regular,sans-serif;
+  list-style:none;
+  /* padding-left:0px; */
+  margin-block-start: 0;
+  margin-block-end: 0;
+  margin-inline-start: 0;
+  margin-inline-end: 0;
+  padding-inline-start: 0;
+
+  /* margin-top: 0px;
+  margin-bottom: 10px; */
+  padding-left: 15px;
+}
+
+ul.bulletS li::before {
+  content: '—';
+  margin-left: -15px;
+  margin-right: 4px;
+  /* content: '—';
+  margin-left: -36px;
+  margin-right: 20px; */
+  /* padding-left: -40px;
+  padding-right: 10px; */
+}
+
+ul.bulletS li.link::before {
+  content: '–';
+  margin-left: -15px;
+  margin-right: 4px;
+  /* content: "";
+  display: inline-block;
+  height: 10px;
+  width: 10px;
+  background-size: 10px 10px;
+  background-image: url(/icon/link-variant.svg);
+  background-repeat: no-repeat;
+  margin-left: -15px;
+  margin-right: 5px; */
+}
+
+/* font: description ================================================ */
+
+h1 {
+  font-family: FKGroteskSemiMonoTrial-Regular,sans-serif;
+  font-size: 14.4px;
+  letter-spacing: 0.027em;
+  /* font-size: 37.7px; */
+  text-transform: uppercase;
+  margin-block-start: 0;
+  margin-block-end: 20px;
+  margin-inline-start: 0;
+  margin-inline-end: 0;
+  font-weight: normal;
+  text-align: left;
+  /* color: #000000; */
+  padding: 0;
+  /* padding: 0 40px 0 40px; */
+}
+
+h1:hover {
+  color: white !important;
+  /* color: black !important; */
+  /* text-shadow: 0 0px 6px yellow; */
+}
+
+h3 {
+  font-family: FKGroteskSemiMonoTrial-Regular,sans-serif;
+  font-size: 14.4px;
+  letter-spacing: 0.027em;
+  text-transform: uppercase;
+  margin-block-start: 0em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: normal;
+  /* text-indent: 50px; */
+}
+
+h4 {
+  font-family: FKGroteskSemiMonoTrial-Regular,sans-serif;
+  font-size: 14.4px;
+  margin-block-start: 0.3em;
+  margin-block-end: 0.3em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: normal;
+}
+
+
+.font-body{
+  font-family: FKGroteskMonoTrial-Regular,sans-serif;
+  font-size: 14.4px;
+
+  line-height: 1.5;
+  /* font-family: HelveticaNeue,sans-serif; */
+  /* font-weight: lighter; */
+  /* font-size: 14px; */
+  /* font-size: 1rem;
+  line-height: 1.2;
+  letter-spacing: 0.0rem; */
+
+  /* font-size: 1.7rem; */
+  /* font-size: 1.3rem; */
+  /* line-height: 1.3; */
+  /* font-family: Helvetica,Arial,sans-serif;
+  font-size: 12px;
+  line-height: 14px; */
+  /* font-size: 24px;
+  line-height: 28px; */
+  /* font-family: neue-haas-grotesk-display,sans-serif;
+  font-weight: 500;
+  font-style: normal; */
+  /* font-family: neue-haas-grotesk-text,sans-serif;
+  font-weight: 400;
+  font-style: normal; */
+  /* font-family: gopher, sans-serif;
+  font-weight: 300;
+  font-style: normal; */
+}
+
+
+
+/* font: pp ================================================ */
+
+.font-pp{
+  font-family: FKGroteskMonoTrial-Regular,sans-serif;
+  font-size: 14.4px;
+  text-transform: uppercase;
+  letter-spacing: 0.027em;
+
+  /* font-family: FKGroteskNeueTrial-Regular,sans-serif;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 0.027em; */
+
+  /* font-family: Century,serif;
+  font-size: 16.5px; */
+
+  /* font-family: COURIER,sans-serif;
+  font-size: 17px; */
+
+  /* font-family: FKRomanStandardTrial-Regular,serif;
+  font-size: 14.4px;
+  text-transform: uppercase;
+  letter-spacing: 0.027em; */
+
+  /* font-family: NotoSerif-Regular,serif;
+  font-size: 17px; */
+
+  /* font-family: Century,serif;
+  font-size: 16.8px; */
+  /* letter-spacing: 0.003em; */
+
+  /* font-family: FKGroteskSemiMonoTrial-Regular,sans-serif; */
+}
