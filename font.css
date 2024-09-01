@@ -29,12 +29,12 @@
 /* text: drag color ================================================ */
 
 ::selection {
-  color: #000000;
+  color: #19b9e5;
   background: white;
 }
 
 ::-moz-selection { /* Code for Firefox */
-  color: #000000;
+  color: #19b9e5;
   background: white;
 }
 
