@@ -24,12 +24,8 @@ html,body {
 
 /* Day: Specific ================================================ */
 
-.fc-day-tue {
-  width: 25%;
-}
-
-.fc-day-thu {
-  width: 25%;
+.fc-day-wed {
+  width: 35%;
 }
 
 
@@ -64,6 +60,18 @@ html,body {
 
 .fc-event-url > ul > li {
   padding-bottom: 5px;
+}
+
+
+/* Dates: No Scroll ================================================ */
+.fc * {
+  overflow: hidden;
+}
+
+
+/* Table: Border Bottom hr ================================================ */
+.fc .fc-scrollgrid-section-body table, .fc .fc-scrollgrid-section-footer table {
+  border-bottom: 1px black solid;
 }
 
 
