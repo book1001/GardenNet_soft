@@ -162,11 +162,15 @@ html,body {
     display: none;
   }
   
-  .fc-day-wed {
+  .fc-day-tue {
     display: none;
   }
   
   .fc-day-fri {
+    display: none;
+  }
+
+  .fc-day-thu {
     display: none;
   }
   
