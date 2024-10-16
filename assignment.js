@@ -1,8 +1,7 @@
 const textWithLineBreaks = `
   ASSIGNMENT
 
-  ~ 10/2: World Wild Wonderland) We will briefly share your progress (no need to prepare slides)
-  ~ 10/2: World Wild Wonderland) Prepare for 1:1 meetings
+  ~ 10/23: Prepare for the World Wild Wonderland final presentation
 
 `;
 
@@ -21,4 +20,7 @@ contentDiv.innerText = textWithLineBreaks;
 
 // ~ 9/25: There will be no Brief Sharing in the class on the 25th. Instead, we will have small group discussions and 1:1 meetings to review the 2nd draft of your World Wild Wonderland project.
 // ~ 9/25: Bring your mouse! (We will learn other features of Spline on the 25th.)
+
+// ~ 10/2: World Wild Wonderland) We will briefly share your progress (no need to prepare slides)
+// ~ 10/2: World Wild Wonderland) Prepare for 1:1 meetings
 // `;
