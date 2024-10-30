@@ -1,7 +1,7 @@
 const textWithLineBreaks = `
   ASSIGNMENT
 
-  ~ 10/23: Prepare for the World Wild Wonderland final presentation
+  ~ 11/6: Prepare with ideas, drafts, and/or references for a tool you'd like to build for this project
 
 `;
 
@@ -23,4 +23,6 @@ contentDiv.innerText = textWithLineBreaks;
 
 // ~ 10/2: World Wild Wonderland) We will briefly share your progress (no need to prepare slides)
 // ~ 10/2: World Wild Wonderland) Prepare for 1:1 meetings
+
+// ~ 10/23: Prepare for the World Wild Wonderland final presentation
 // `;
