@@ -631,6 +631,7 @@ iframe{
   grid-template-columns: calc(50% - 15px);
   /* grid-template-columns: 1fr 1fr; */
   column-gap: 0;
+  /* row-gap: 15px; */
   padding: 0 15px 0 15px;
 }
 

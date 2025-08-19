@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', function () {
   const calendar = new FullCalendar.Calendar(calendarEl, {
     initialView: 'dayGridFourWeek',
     timeZone: 'America/New_York',
-    initialDate: '2024-09-03',
+    initialDate: '2025-09-02',
     firstDay: 1,
     views: {
       dayGridFourWeek: {

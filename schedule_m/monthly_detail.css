@@ -8,7 +8,7 @@
 /* Calendar Hight ================================================ */
 
 #schedule-s {
-  height: calc(100% - 89px);
+  height: calc(100% - 69px);
   padding-bottom: 15px;
 }
 
@@ -38,7 +38,18 @@ ul > li b i {
 
 /* Day: Specific ================================================ */
 
-/* Final Package */
+/* Senior Reviews */
+/* #fc-dom-200 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  color: black;
+  background: var(--p4-bg);
+  z-index: -1;
+} */
+
+
+/* Final Submission */
 /* #fc-dom-210 {
   position: absolute;
   width: 100%;
@@ -59,7 +70,7 @@ ul > li b i {
   width: 100%;
   height: 100%;
   /* text-align: right; */
-  color: white;
+  color: #19b9e5;
   background: black;
   z-index: -1;
 }

@@ -9,7 +9,7 @@
   background: black;
 }
 
-::-moz-selection { /* Code for Firefox */
+::-moz-selection { 
   color: #19b9e5;
   background: black;
 }
@@ -59,7 +59,7 @@ html,body {
   margin-block-end: 0;
   padding-inline-start: 0;
   list-style: none;
-  padding-left: 0;
+  padding-left: 15px;
   word-wrap: break-word;
 }
 
@@ -79,6 +79,9 @@ html,body {
   border-bottom: 1px black solid;
 }
 
+/* .fc .fc-scrollgrid-section, .fc .fc-scrollgrid-section table, .fc .fc-scrollgrid-section > td {
+  border-bottom: 1px solid red;
+} */
 
 /* ??? ================================================ */
 
@@ -161,16 +164,16 @@ html,body {
   .fc-day-mon {
     display: none;
   }
-  
+
   .fc-day-tue {
-    display: none;
-  }
-  
-  .fc-day-fri {
     display: none;
   }
 
   .fc-day-thu {
+    display: none;
+  }
+  
+  .fc-day-fri {
     display: none;
   }
   

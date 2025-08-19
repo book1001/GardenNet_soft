@@ -368,16 +368,10 @@ function loadScript(url) {
 }
 
 window.addEventListener("resize", function() {
-  loadScript("schedule/schedule_s.js");
-  loadScript("schedule/schedule_p1.js");
-  loadScript("schedule/schedule_p2.js");
-  loadScript("schedule/schedule_p3.js");
-  loadScript("schedule/schedule_p4.js");
+  loadScript("schedule_m/monthly.js");
+  loadScript("schedule_w/weekly.js");
 });
 
 // 페이지 초기 로드 시 스크립트를 한 번 로드합니다.
-loadScript("schedule/schedule_s.js");
-loadScript("schedule/schedule_p1.js");
-loadScript("schedule/schedule_p2.js");
-loadScript("schedule/schedule_p3.js");
-loadScript("schedule/schedule_p4.js");
+loadScript("schedule_m/monthly.js");
+loadScript("schedule_w/weekly.js");

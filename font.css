@@ -33,7 +33,7 @@
   background: white;
 }
 
-::-moz-selection { /* Code for Firefox */
+::-moz-selection {
   color: #19b9e5;
   background: white;
 }
@@ -100,7 +100,7 @@ ul.bullet li {
 }
 
 ul.bullet li::before {
-  content: '✿';
+  content: '⌘';
   margin-left: -20px;
   margin-right: 8px;
 }
@@ -127,6 +127,7 @@ ul.bulletG6 li::before {
   margin-left: -40px;
   margin-right: 10px;
 }
+
 
 ul.bulletG3{
   list-style:none;

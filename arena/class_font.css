@@ -51,6 +51,10 @@ p {
   font-weight: normal;
   text-transform: none;
   color: #000000;
+  
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 /* p::selection {

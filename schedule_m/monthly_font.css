@@ -23,14 +23,19 @@
   --fc-small-font-size: 12.5px;
   --fc-event-text-color: #000000;
 
+
+  --b-text: black;
+  --b-bg: white;
+
   --p1-text: black;
-  --p1-bg: white;
-  --p2-text: white;
-  --p2-bg: blue;
+  --p1-bg: yellow;
+  --p2-text: black;
+  --p2-bg: rgb(0, 255, 0);
   --p3-text: black;
-  --p3-bg: yellow;
+  --p3-bg: #00eeff;
   --p4-text: black;
   --p4-bg: white;
+  --pn-text: #19b9e5;
 }
 
 
@@ -70,6 +75,15 @@ a {
 }
 
 
+
+/* Markup: #1 Zooming In ================================================ */
+ol > li {
+  color: white;
+  background: transparent;
+}
+
+
+
 /* Markup: #1 Zooming In ================================================ */
 
 b {
@@ -79,7 +93,7 @@ b {
 }
 
 ul > li b {
-  color: var(--p1-bg);
+  color: var(--pn-text);
   background: transparent;
 }
 
@@ -87,13 +101,13 @@ ul > li b {
 /* Markup: #3 Gardeners' Map  ================================================ */
 
 i {
-  color: var(--p3-text);
-  background: var(--p3-bg);
+  color: var(--p2-text);
+  background: var(--p2-bg);
   font-style: normal;
 }
 
 ul > li i {
-  color: var(--p3-bg);
+  color: var(--p2-bg);
   background: transparent;
 }
 
@@ -101,13 +115,14 @@ ul > li i {
 /* Markup: #2 New Horizons ================================================ */
 
 u {
-  color: var(--p2-text);
-  background: var(--p2-bg);
+  color: var(--p3-text);
+  background: var(--p3-bg);
   text-decoration: none;
 }
 
 ul > li u {
-  color: var(--p2-bg);
+  color: var(--p3-text);
+  /* color: var(--p2-bg); */
   background: transparent;
 }
 
@@ -123,6 +138,21 @@ b i {
 
 ul > li b i {
   color: var(--p4-bg);
+  background: transparent;
+}
+
+
+
+/* Markup: No Class ================================================ */
+
+b u {
+  color: var(--pn-text);
+  font-weight: normal;
+  font-style: normal;
+}
+
+ul > li b u {
+  color: var(--pn-text);
   background: transparent;
 }
 

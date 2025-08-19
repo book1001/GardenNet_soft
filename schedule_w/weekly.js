@@ -1,3 +1,5 @@
+
+
 let page = 1; // Initialize the page number
 
 window.onload = function() {
@@ -52,11 +54,11 @@ function renderChannel(slug, page) {
 
             // We are going to return HTML, mixed in with the data from the block.
             return `
-              <div class="Block ${block.class}">
+              <div class="Block ${block.class} ${block.title}">
 
                 ${(() => {
                   if (block.title && block.class !== 'Link' && block.class !== 'Channel') {
-                    return `<strong class="Block__title">${block.title}</strong>`;
+                    return ``;
                   }
 
                   return ``;
@@ -80,6 +82,19 @@ function renderChannel(slug, page) {
                       
                     case "Text":
                       return `
+                      <div class="cell1">
+                        <p style="text-align: center; text-transform: uppercase;">
+                          ${block.title}
+                        </p>
+                      </div>
+                      <div class="cell2">
+                        <p>
+                          ${block.description}
+                        </p>
+                      </div>
+                      <div class="cell3">
+                        ${block.content}
+                      </div>
                       `;
                       
                     case "Attachment":
@@ -117,7 +132,7 @@ function renderChannel(slug, page) {
                     case "Channel":
                       return `
                       <a href="https://www.are.na/channel/${block.slug}" class="BlockInner__Link" style="color: #ffffff;">
-                        <img class="BlockInner__Image" src="img/arena.jpg">
+                        <img class="BlockInner__Image" src="../img/arena.jpg">
                       </a>
                       <a href="https://www.are.na/channel/${block.slug}">
                         <p style="text-align: center; text-transform: uppercase;">

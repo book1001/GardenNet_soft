@@ -10,7 +10,7 @@
     <!-- css -->
     <link rel="stylesheet" href="font.css">
     <link rel="stylesheet" href="index.css">
-    <link rel="stylesheet" href="index-detail.css">
+    <link rel="stylesheet" href="index_detail.css">
     <link rel="stylesheet" href="index_media.css">
 
     <!-- script: index_ie.js -->
@@ -42,53 +42,44 @@
       <button id="row4" class="menu-btn font-menu" onclick="menuSyllabus()" type="button">
         Syllabus
       </button>
-      <button id="row2" class="menu-btn font-menu" onclick="menuProjects()" type="button">
-        🄋
-      </button>
       <button id="row3" class="menu-btn font-menu" type="button">
-        ➊
+        ⌘
       </button>
-      <button id="row1" class="menu-btn font-menu" type="button">
-        ➋
+      <button id="row1" class="menu-btn font-menu" onclick="menuProjects()" type="button">
+        ➊➋
       </button>
-      <button id="row5" class="menu-btn font-menu" type="button">
-        Note
+      <button id="row2" class="menu-btn font-menu" type="button">
+        ❸
       </button>
-      <button class="menu-btn blank font-menu" onclick="javascript:window.open('https://docs.google.com/document/d/1Euk-6pwBMuncuR3-D5TRsx-0_8Lzajf253foPcMY7u8/edit?usp=sharing', '_blank');" type="button">
+      <button class="menu-btn blank font-menu" onclick="javascript:window.open('https://docs.google.com/document/d/173ZGpF4ye7bMUJd7kTXvR8bxMRTiZOxDMs4KfTP-bEU/edit?usp=sharing', '_blank');" type="button">
         Sign-up
       </button>
-      <button class="menu-btn blank font-menu" onclick="javascript:window.open('https://docs.google.com/document/d/1XyNMKQgaqR7CS5u2jqsMDsg6q9395XdyWI9HRK70SDc/edit?usp=sharing', '_blank');" type="button">
+      <button class="menu-btn blank font-menu" onclick="javascript:window.open('https://calendly.com/lee-halim/30min', '_blank');" type="button">
         Office Hours
       </button>
-      <button class="menu-btn blank font-menu" onclick="javascript:window.open('https://drive.google.com/drive/folders/1cFimT95jUCv4J2ngXgXWOfEOLeNLZnKv?usp=drive_link', '_blank');" type="button">
+      <button class="menu-btn blank font-menu" onclick="javascript:window.open('https://softwarelabfall25.slack.com', '_blank');" type="button">
+        Slack
+      </button>
+      <button class="menu-btn blank font-menu" onclick="javascript:window.open('https://drive.google.com/drive/folders/1a92xWKA5aVoj2gB_K9ztt8zuXbDFy_MJ?usp=drive_link', '_blank');" type="button">
         G-Drive
       </button>
-      <button class="menu-btn blank font-menu" onclick="javascript:window.open('https://www.are.na/fall-2024-bu-software-lab/bu-software-lab-collaborative-archive', '_blank');" type="button">
+      <button class="menu-btn blank font-menu" onclick="javascript:window.open('https://www.are.na/fall-2025-bu-software-lab/collaborative-toolbox', '_blank');" type="button">
         Are.na
+      </button>
+      <button class="menu-btn blank font-menu" onclick="javascript:window.open('https://docs.google.com/spreadsheets/d/1hRa8DWvVIKkvG-Axrd35HHTqedfEANEp_zuHs-6_TfE/edit?usp=sharing', '_blank');" type="button">
+        Attendance
       </button>
     </div>
 
 
-    <!-- Body: P0 ================================================================== -->
-    <div class="row2">
+    <!-- Body: P1 P2 ================================================================== -->
+    <div id="main" class="row1">
       <div class="scrollContents">
 
         <div class="col2-text" style="text-indent: 0px;">
           <!-- --------------------------------------------------------------- -->
           <div id="p1_magicSpells_1">
-            <div class="h-top"></div>
-            <a href="https://www.are.na/fall-2024-bu-software-lab/soft-class-note" target="_blank">
-              <h1>🄋 Software Lab</h1>
-            </a>
-
-            <h4>
-              The use of new software plays a significant role in expanding our visual vocabulary and ideas, creating more opportunities in graphic design. "Software Lab" is an experimental laboratory that explores the potential of various digital applications. This course consists of several small workshops designed to help you explore diverse programs, as well as two main projects. The first project encourages bold and experimental attempts using newly acquired software knowledge, while the second project focuses on creating your own tool to develop your unique design approach.
-              <br><br><br>
-            </h4>
-            
-            <iframe class="col-arena-L" style="min-height: calc(300px + 40px);" src="schedule/schedule_p1.html"></iframe>
-            <!-- <h4 id="assignment" style="padding-bottom: 15px;"></h4> -->
-            <!-- <iframe class="col-arena-L" style="height: 100svh;" src="https://g-calendar-24f-p.glitch.me"></iframe> -->
+            <iframe class="col-arena-L" src="schedule_w/weekly_p1.html"></iframe>
           </div>
           <!-- --------------------------------------------------------------- -->
           <div id="p1_magicSpells_2">
@@ -98,10 +89,6 @@
         </div>
 
         <div class="p-title">
-          <!-- <a href="https://www.are.na/spring-2024-bu-sophomore-graphic-design/form-making-workshops-typeface" target="_blank">
-            <h1 style="color: white;">FORM MAKING WORKSHOP & TYPEFACE</h1>
-          </a> -->
-
           <div class="p-title-subM">
             <div style="text-align: center;">
               <button id="btn_p1_1" class="p-title-subM-btn" onclick="p1_magicSpells_1()" type="button">
@@ -118,44 +105,64 @@
       </div>
     </div>
 
-    <!-- Body: P1 ================================================================== -->
+    <!-- Body: P3 ================================================================== -->
+    <div class="row2">
+      <div class="scrollContents">
+        
+        <div class="col2-text" style="text-indent: 0px;">
+          <!-- --------------------------------------------------------------- -->
+          <div id="p3_ghosts_1">
+            <iframe class="col-arena-L" src="schedule_w/weekly_p3.html"></iframe>
+          </div>
+          <!-- --------------------------------------------------------------- -->
+          <div id="p3_ghosts_2">
+            <iframe class="col-arena-R" src="arena/class_note.html"></iframe>
+          </div>
+        </div>
+
+        <div class="p-title">
+  
+          <div class="p-title-subM">
+            <div style="text-align: center;">
+              <button id="btn_p3_1" class="p-title-subM-btn" onclick="p3_ghosts_1()" type="button">
+                Note
+              </button>
+              |
+              <button id="btn_p3_2" class="p-title-subM-btn" onclick="p3_ghosts_2()" type="button">
+                Resources
+              </button>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- Body: P4 ================================================================== -->
     <div class="row3">
       <div class="scrollContents">
-
-        <!-- <div class="h-top"></div>
-        <h1>Infinite Figures</h1> -->
         
         <div class="col2-text" style="text-indent: 0px;">
           <!-- --------------------------------------------------------------- -->
-          <div id="p2_infiniteFigures_1">
-            <div class="h-top"></div>
-            <a href="https://www.are.na/fall-2024-bu-software-lab/soft-class-note" target="_blank">
-              <h1>➊ World Wild Wonderland</h1>
-            </a>
-
-            <h4>
-              Since the birth of the World Wide Web, creative makers have used it as a tool for exploring ideas, embodying their concepts into unique virtual spaces. Our first project, “World Wild Wonderland,” aims to build a shareable space according to your personal preferences. The kind of world you create is up to you. Set yourself free and be bold in experimenting with new software. The following workshops will focus on learning web-based software, but you are welcome to use any tools you prefer, including Photoshop Script or other tools you want to explore.
-              <br><br><br>
-            </h4>
-
-            <iframe class="col-arena-L" style="min-height: calc(1000px + 40px);" src="schedule/schedule_p2.html"></iframe>
+          <div id="p4_terra_1">
+            <iframe class="col-arena-L" src="schedule_w/weekly.html"></iframe>
           </div>
           <!-- --------------------------------------------------------------- -->
-          <div id="p2_infiniteFigures_2">
-            <iframe class="col-arena-R" src="arena/class_note.html"></iframe>
+          <div id="p4_terra_2">
+            <iframe class="col-arena-R" src="arena/class_resource.html"></iframe>
           </div>
           <!-- --------------------------------------------------------------- -->
         </div>
         
         <div class="p-title">
-
+          
           <div class="p-title-subM">
             <div style="text-align: center;">
-              <button id="btn_p2_1" class="p-title-subM-btn" onclick="p2_infiniteFigures_1()" type="button">
+              <button id="btn_p4_1" class="p-title-subM-btn" onclick="p4_terra_1()" type="button">
                 Note
               </button>
               |
-              <button id="btn_p2_2" class="p-title-subM-btn" onclick="p2_infiniteFigures_2()" type="button">
+              <button id="btn_p4_2" class="p-title-subM-btn" onclick="p4_terra_2()" type="button">
                 Resources
               </button>
             </div>
@@ -165,53 +172,6 @@
       </div>
     </div>
 
-    <!-- Body: P2 ================================================================== -->
-    <div id="main" class="row1">
-      <div class="scrollContents">
-
-        <!-- <div class="h-top"></div>
-        <h1>Infinite Figures</h1> -->
-        
-        <div class="col2-text" style="text-indent: 0px;">
-          <!-- --------------------------------------------------------------- -->
-          <div id="p2_infiniteFigures_1">
-            <div class="h-top"></div>
-            <a href="https://www.are.na/fall-2024-bu-software-lab/soft-class-note" target="_blank">
-              <h1>➋ Tool for You</h1>
-            </a>
-
-            <h4>
-              Design outcomes are often significantly influenced by the nature of the tools we use. The use of the same software can sometimes restrict our visual language to similar styles. For the second project, “Tool for You,” we will build a tool specifically tailored to your own design work. Constructing your own machine allows you to develop unique design approaches and vocabulary. The project outcome is not limited to a tool for graphics; anything that can aid your creative process, such as a random text generator or a music player for your inspiration, is allowed.
-              <br><br><br>
-            </h4>
-
-            <iframe class="col-arena-L" style="min-height: calc(1200px + 40px);" src="schedule/schedule_p3.html"></iframe>
-            <h4 id="assignment" style="padding-bottom: 15px;"></h4>
-          </div>
-          <!-- --------------------------------------------------------------- -->
-          <div id="p2_infiniteFigures_2">
-            <iframe class="col-arena-R" src="arena/class_note.html"></iframe>
-          </div>
-          <!-- --------------------------------------------------------------- -->
-        </div>
-        
-        <div class="p-title">
-
-          <div class="p-title-subM">
-            <div style="text-align: center;">
-              <button id="btn_p2_1" class="p-title-subM-btn" onclick="p2_infiniteFigures_1()" type="button">
-                Note
-              </button>
-              |
-              <button id="btn_p2_2" class="p-title-subM-btn" onclick="p2_infiniteFigures_2()" type="button">
-                Resources
-              </button>
-            </div>
-          </div>
-        </div>
-
-      </div>
-    </div>
 
     <!-- Body: Syllabus ================================================================== -->
     <div class="row4">
@@ -224,7 +184,7 @@
               <h3 style="text-indent: 0px;">
                 <div>
                   <h3>
-                    BU Fall 2024
+                    BU Fall 2025
                   </h3>
                   <h3>
                     Software Lab
@@ -272,7 +232,7 @@
                     </ul>
                     <ul>
                       <li>
-                        Room 409<br>
+                        Room 410<br>
                         (808 Commonwealth Ave)
                       </li>
                     </ul>
@@ -381,21 +341,27 @@
               <!-- --------------------------------------------------------------- -->
 
               <div>
-                <h3>#0 Software Lab</h3>
+                <h3>#0 Collaborative Toolbox</h3>
                 <h4>
-                  The use of new software plays a significant role in expanding our visual vocabulary and ideas, creating more opportunities in graphic design. "Software Lab" is an experimental laboratory that explores the potential of various digital applications. This course consists of several small workshops designed to help you explore diverse programs, as well as two main projects. The first project encourages bold and experimental attempts using newly acquired software knowledge, while the second project focuses on creating your own tool to develop your unique design approach.
+                  Playing with new and different software helps us expand our visual vocabulary and creative ideas. The Software Lab is a collaborative space where all members experiment together using new tools. To expand our toolbox archive, we will operate a Collaborative Toolbox Arena channel. Each member will sign up for a date and introduce five tools they find interesting. These tools will be shared on the Arena channel so that everyone can use them as assets for future projects. The five tools can include graphic design tools, motion graphics tools, 3D tools, AI tools, typeface creation tools, writing tools, or any other tools we commonly use in our work.
                 </h4><br><br>
                 <hr><br><br>
 
-                <h3>#1 World Wild Wonderland</h3>
+                <h3>#1 Proto—Type</h3>
                 <h4>
-                  Since the birth of the World Wide Web, creative makers have used it as a tool for exploring ideas, embodying their concepts into unique virtual spaces. Our first project, “World Wild Wonderland,” aims to build a shareable space according to your personal preferences. The kind of world you create is up to you. Set yourself free and be bold in experimenting with new software. The following workshops will focus on learning web-based software, but you are welcome to use any tools you prefer, including Photoshop Script or other tools you want to explore.
+                  Using one or more typeface creation tools, create a new typeface. The focus is on experimental and playful design, rather than producing a fully polished typeface. Consider creating modular, color, or variable fonts, and give your typeface a name. The typeface you create will be used as the title for the second project, Re:Place, so it is encouraged to design a type that connects conceptually with Re:Place.
                 </h4><br><br>
                 <hr><br><br>
 
-                <h3>#2 Tool for You</h3>
+                <h3>#2 Re—Place</h3>
                 <h4>
-                  Design outcomes are often significantly influenced by the nature of the tools we use. The use of the same software can sometimes restrict our visual language to similar styles. For the second project, “Tool for You,” we will build a tool specifically tailored to your own design work. Constructing your own machine allows you to develop unique design approaches and vocabulary. The project outcome is not limited to a tool for graphics; anything that can aid your creative process, such as a random text generator or a music player for your inspiration, is allowed.
+                  Reimagine a place that is meaningful to you in a digital space. This could be your hometown that you’ve left behind, a place belonging to someone you love, or even a virtual space you’ve long imagined. What form could it take in a digital environment, and what new meanings might emerge? Tools for creating 3D interactive spaces will be introduced during the workshop. For your project, you may use these tools or any others you prefer. (Learning 3D tools in the workshop does not mean your final project must be in 3D.)
+                </h4><br><br>
+                <hr><br><br>
+
+                <h3>#3 Between Worlds</h3>
+                <h4>
+                  As the final project of the Software Lab, we will explore the conversation between the physical and digital worlds. What meanings can emerge when physical actions intervene in the digital? Web programming workshops for building digital spaces will be included. For physical interactions, you are encouraged to bring creative and diverse ideas that can connect with digital spaces to your project.
                 </h4><br>
 
               </div>
@@ -403,7 +369,7 @@
           </div>
             
           <div id="syllabus_2">
-            <iframe class="col-arena-R" src="schedule/schedule_s.html"></iframe>
+            <iframe class="col-arena-R" src="schedule_m/monthly.html"></iframe>
             <!-- <iframe id="noteText" class="col-arena-R" src="https://g-calendar-24f.glitch.me"></iframe> -->
           </div>
         </div>
@@ -425,43 +391,14 @@
       </div>
     </div>
 
-    <!-- Body: Note ================================================================== -->
-    <div class="row5">
-      <div class="scrollContents">
-
-        <!-- <div class="h-top"></div>
-        <h1>Infinite Figures</h1> -->
-        
-        <div class="col2-text" style="text-indent: 0px;">
-          <!-- --------------------------------------------------------------- -->
-          <div id="p2_infiniteFigures_1">
-            <iframe class="col-arena-L" style="height: 100svh;" src="https://bu-n-soft.glitch.me"></iframe>
-          </div>
-          <!-- --------------------------------------------------------------- -->
-          <div id="p2_infiniteFigures_2">
-            <iframe class="col-arena-R" src="arena/class_note.html"></iframe>
-          </div>
-          <!-- --------------------------------------------------------------- -->
-        </div>
-
-      </div>
-      <!-- <div class="scrollContents">
-        <iframe class="iframe-full" src="https://docs.google.com/document/d/1m5-sjV1BMbj_gvvh0BEALeMDg_dL4180xikqarKQwSw/edit?usp=sharing"></iframe>
-      </div> -->
-    </div>
-
 
     <!-- Body: Are.na ================================================================== -->
     <iframe id="notePen" class="toolsWorld" src="/note/index.html"></iframe>
 
 
-    <!-- script  -->
+    <!-- script ================================================================== -->
     <script type="text/javascript" src="index.js"></script>
-    <script type="text/javascript" src="assignment.js"></script>
 
-    <!-- P2 Infinite Figures - 1: Spline -->
-    <!-- <iframe class="toolsWorld" src="https://my.spline.design/kidsplaygroundphysicscopy-55e2e578a2cf923a233b1367ce43a52e/"></iframe> -->
-    <!-- <iframe class="toolsWorld" src="https://my.spline.design/glasscirclescopy-678dc8bb29bd29fe164f67f407f7ae48"></iframe> -->
 
   </body>
 </html>
