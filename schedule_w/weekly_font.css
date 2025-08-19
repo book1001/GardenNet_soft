@@ -32,14 +32,14 @@ a {
   border-bottom: 1px solid rgba(0, 0, 0, 0.6);
 } */
 
-.ChannelContents {
+/* .ChannelContents {
   a::before {
     content: '–';
     font-family: FKGroteskSemiMonoTrial-Regular, sans-serif;
     font-size: 14.4px;
     margin-right: 4px;
   }
-}
+} */
 
 
 a:hover {
@@ -80,17 +80,30 @@ ul {
   font-weight: normal;
   text-transform: none;
   color: #000000;
-  padding-left: 2px;
-  /* padding-left: 20px; */
+  /* padding-left: 2px; */
+  padding-left: 20px;
   /* padding-left: 35px; */
 }
 
 ul li::before {
-  /* content: '—'; */
+  content: '—';
   margin-left: -20px;
   margin-right: 8px;
 }
 
+ul li a::before {
+  content: '–';
+  background: #19b9e5;
+  /* margin-left: -20px;
+  margin-right: 8px; */
+  margin-left: -19px;
+  margin-right: 8px;
+  font-size: 16px;
+}
+
+li {
+  padding-bottom: 3px;
+}
 
 a > p::selection {
   color: #ffffff;
