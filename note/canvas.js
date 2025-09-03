@@ -32,7 +32,7 @@ function keyTyped() {
   // }
 
   if (keyIsDown(81)) { //Q
-    background(255);
+    background("#19b9e5");
   }
 
   if (keyIsDown(49)) { //1
