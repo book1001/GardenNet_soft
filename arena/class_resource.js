@@ -112,7 +112,8 @@ function renderChannel(slug, page) {
                       <a href="${block.source && block.source.url}" class="BlockInner__Link">
                         <img class="BlockInner__Image" src="${block.image.large.url}"/>
                       </a>
-                      <a href="https://www.are.na/block/${block.id}"><p style="text-align: center; text-transform: uppercase;">
+                      <a href="https://www.are.na/block/${block.id}">
+                        <p style="text-align: center; text-transform: uppercase;">
                         ${block.title}
                       </p></a>
                       `;
