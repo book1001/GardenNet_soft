@@ -87,14 +87,13 @@ function renderChannel(slug, page) {
                       
                     case "Attachment":
                       return `
-                      <a href="https://www.are.na/block/${block.id}" class="BlockInner__Channel">
-                        – Open PDF
+                      <a href="https://www.are.na/block/${block.id}" class="BlockInner__Link">
+                        <img class="BlockInner__Image" src="${block.image.large.url}"/>
                       </a>
                       <a href="https://www.are.na/block/${block.id}">
-                        <p style="max-height: 90px; overflow-y:auto; text-align: center; text-transform: uppercase;">
-                          ${block.title}
-                        </p>
-                      </a>
+                        <p style="text-align: center; text-transform: uppercase;">
+                        ${block.title}
+                      </p></a>
                       `;
                 
                     case "Link":
