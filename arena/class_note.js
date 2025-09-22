@@ -80,6 +80,9 @@ function renderChannel(slug, page) {
                       
                     case "Text":
                       return `
+                      <p style="margin-block-start: 0; margin-block-end: 0; text-transform: uppercase;">
+                        ${block.content}
+                      </p>
                       `;
                       
                     case "Attachment":
