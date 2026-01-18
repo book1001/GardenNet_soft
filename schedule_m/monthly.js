@@ -1,12 +1,12 @@
 document.addEventListener('DOMContentLoaded', function () {
   const apiKey = 'AIzaSyA5qWllBxBtVC-9l3Ck5nt_9bMbtWapEBc';
-  const calendarId = 'b92714a2e02e225888e03bbeb30556c7d0f671cd1479df967d5334b843c62f4c@group.calendar.google.com';
+  const calendarId = '0a38a25654c0430d63d7d15025f8d79fc2dace32374c4fd54464d4956cfc4246@group.calendar.google.com';
 
   const calendarEl = document.getElementById('schedule-s');
   const calendar = new FullCalendar.Calendar(calendarEl, {
     initialView: 'dayGridFourWeek',
     timeZone: 'America/New_York',
-    initialDate: '2026-01-23',
+    initialDate: '2025-09-02',
     firstDay: 1,
     views: {
       dayGridFourWeek: {
@@ -66,20 +66,17 @@ document.addEventListener('DOMContentLoaded', function () {
   setTimeout(function() {
     const elements = document.querySelectorAll('.fc-daygrid-month-start');
     elements.forEach(function(element) {
-      if (element.textContent.includes('January')) {
-        element.textContent = element.textContent.replace('January', '1/');
+      if (element.textContent.includes('September')) {
+        element.textContent = element.textContent.replace('September', '9/');
       } 
-      else if (element.textContent.includes('February')) {
-        element.textContent = element.textContent.replace('February', '2/');
+      else if (element.textContent.includes('October')) {
+        element.textContent = element.textContent.replace('October', '10/');
       } 
-      else if (element.textContent.includes('March')) {
-        element.textContent = element.textContent.replace('March', '3/');
+      else if (element.textContent.includes('October')) {
+        element.textContent = element.textContent.replace('October', '10/');
       } 
-      else if (element.textContent.includes('April')) {
-        element.textContent = element.textContent.replace('April', '4/');
-      }
-      else if (element.textContent.includes('May')) {
-        element.textContent = element.textContent.replace('May', '5/');
+      else if (element.textContent.includes('October')) {
+        element.textContent = element.textContent.replace('October', '10/');
       }
     });
     
